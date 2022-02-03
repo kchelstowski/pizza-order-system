@@ -1,0 +1,59 @@
+[
+  {
+    "id": "8aa6d16b-4893-4ab5-89cc-3181f8e93d98",
+    "name": "mozarella",
+    "category": "cheese",
+    "price": 12.99,
+    "amount": 100
+  },
+  {
+    "id": "a09cdaf6-724b-4b45-8ee4-88ba040a42db",
+    "name": "salami napoli",
+    "category": "meat",
+    "price": 7.99,
+    "amount": 80
+  },
+  {
+    "id": "f4629aff-864d-4cf3-ad03-46bc60e9c779",
+    "name": "pieczarki",
+    "category": "mushrooms",
+    "price": 3.99,
+    "amount": 50
+  },
+  {
+    "id": "cb502e9f-8448-4668-a208-d98ab5a61f13",
+    "name": "pomidory koktajlowe",
+    "category": "vegetables",
+    "price": 5.99,
+    "amount": 40
+  },
+
+  {
+    "id": "d40795fd-1245-4d8d-8ce0-b045d0a546f1,",
+    "name": "szynka",
+    "category": "meat",
+    "price": 4.99,
+    "amount": 60
+  },
+  {
+    "id": "3d2407e3-1d7a-44f3-874b-eca64f9e5b38",
+    "name": "papryka",
+    "category": "vegetables",
+    "price": 3.99,
+    "amount": 50
+  },
+  {
+    "id": "3ea89a0d-4b60-4ba7-8a96-1fc3b0f9c11c",
+    "name": "roszponka",
+    "category": "vegetables",
+    "price": "3.49",
+    "amount": 30
+  },
+  {
+    "id": "c89297f8-b93e-44c7-86c5-1106925c0fa9",
+    "name": "cebula",
+    "category": "vegetables",
+    "price": 1.99,
+    "amount": 70
+  }
+]

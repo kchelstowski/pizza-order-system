@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2a323d;
+    color: white;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.order-box {
+    border: 1px solid black;
+}
+
+.login-form {
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 1px solid black;
+    background-color: #2a323d;
+}
+
+.all-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-error {
+    color: red;
+    font-weight: bold;
+}
+
+.flex-column {
+    display: flex;
+    gap: 5px;
+}
+
+.bold-login {
+    font-weight: bold;
+}
+
+.order-form-main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.order-form-formik {
+    grid-row: 1;
+    grid-column: 1;
+    padding: 20px;
+    border: 1px solid #3f4b5b;
+}
+
+
+.checkboxes {
+
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.field-order-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ingredients-h3 {
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.order-form-single-product {
+    display: flex;
+    gap: 5px;
+}
+
+.current-price {
+    align-self: flex-end;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-form {
+        width: 100%;
+    }
+
+}
+
+.changeStatus-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.changeStatus-button {
+    align-self: center;
+}
+
+.products-form {
+    width: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.field-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-column-operations {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    background-color: #20262e;
+}
+
+.main-box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    border-right: 1px solid white;
+}
+
+.main-box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.account-question {
+    margin-top: 30px;
+}
+
+.register-form {
+    width: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.label-dob {
+    align-self: center;
+    margin-right: 5px;
+}
+
+.validationWarn {
+    margin-top: 5px;
+}
+
+.bar-chart {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.donut-chart {
+    width: 40%;
+    margin: 0 auto;
+}
